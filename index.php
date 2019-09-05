@@ -16,7 +16,7 @@ $yuto->shoot('ゆうと');
 
 $yuto->showShootResult('ゆうと');
 
-$LeBron = new Player('LeBron', 'SF', '203');
+$LeBron = new LeBronJames('LeBron', 'SF', '203');
 
 $LeBron->shoot('レブロン');
 
@@ -25,4 +25,9 @@ $Bradley->getPlayer($LeBron);
 $Bradley->showPlayers();
 $Bradley->getPlayer($yuto);
 $Bradley->showPlayers();
+
+$yuto->showShootResult('ゆうと');
+$LeBron->ChaseDownBlock($yuto);
+$yuto->showShootResult('ゆうと');
+
 

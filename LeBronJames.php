@@ -7,6 +7,6 @@ class LeBronJames extends Player
     {
         echo 'チェイスダウンブロック!!!<br>';
         $enemy->shootResult -= 1;
-        echo $enemy . 'のシュートをブロックした！';
+        echo $enemy->name . 'のシュートをブロックした！<br>';
     }
 }
